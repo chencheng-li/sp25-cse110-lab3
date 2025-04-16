@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Meeting minutes for CS 110.">
+        <meta name="author" content="Chencheng Li">
+        <link rel="icon" href="images/Meetup_Logo.png">
+        <title>Meeting Minutes</title>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#attendance">Attendance</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>Meeting Minutes</h1>
+            <p>April 10, 2025</p>
+        </header>
+
+        <main>
+            <section id="attendance">
+                <h2>Attendance</h2>
+                <h3>Present</h3>
+                <div>
+                    <p>This <span>section</span> records who attended the meeting.</p>
+                </div>
+                <ol>
+                    <li><span>Chencheng Li</span></li>
+                    <li>...</li>
+                    <li>...</li>
+                </ol>
+            </section>
+
+            <section id="agenda">
+                <h2>Agenda</h2>
+                <ul>
+                    <li>Team video shooting</li>
+                    <li>Branding discussion</li>
+                    <li>GitHub org setup</li>
+                </ul>
+            </section>
+
+            <section id="new-business">
+                <h2>New Business</h2>
+                <h3>Topic: Branding and Identity</h3>
+                <p>This is what we did today:</p>
+                <p>
+                    We shot the video and discussed branding values:<br> <b>communication</b><br>
+                    <strong>accountability</strong><br>
+                    <b>empathy</b><br>
+                    and wrote them on the <em>poster</em>.
+                </p>
+                <p>We agreed that the branding should feel <i>playful</i> and approachable.</p>
+                <details>
+                    <summary>Click to view meeting summary</summary>
+                    <p>We shot a video, discussed branding values, and finalized our team GitHub setup.</p>
+                </details>
+            </section>
+
+            <section id="media">
+                <h2>Media</h2>
+                <p>Video and audio recording:</p>
+                <video controls>
+                    <source src="media/meeting.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <audio controls>
+                    <source src="media/meeting_audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+
+            <section id="Done">
+                <p>Zhenyu reminded everyone in Slack to check their GitHub invitations:</p>
+                <img src="images/invitation.png" alt="Pending invitations screenshot from GitHub">
+            </section>
+
+            <section id="form">
+                <h2>Feedback Form</h2>
+                <form>
+                    <fieldset>
+                        <legend>Meeting Feedback</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name"><br>
+
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date"><br>
+
+                        <label for="satisfaction">Overall Satisfaction:</label>
+                        <select id="satisfaction" name="satisfaction">
+                            <option>Excellent</option>
+                            <option>Good</option>
+                            <option>Fair</option>
+                            <option>Poor</option>
+                        </select><br>
+
+                        <label>Would you recommend this team activity?</label><br>
+                        <input type="radio" name="recommend" value="yes"> Yes<br>
+                        <input type="radio" name="recommend" value="no"> No<br>
+
+                        <label for="comments">Additional Comments:</label><br>
+                        <textarea id="comments" name="comments"> rows="4" cols="50"></textarea><br>
+
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+            <hr>
+        </main>
+
+        <footer>
+            <p>@ Spring 2025 CS110 13th team - Cache Me Outside</p>
+        </footer>
+    </body>
+</html>
