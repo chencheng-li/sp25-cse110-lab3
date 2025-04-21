@@ -3,7 +3,7 @@ name: Custom Task Template
 about: Describe the task to be done.
 title: "[TASK] Brief description of the task" 
 labels: ''
-assignees: ''
+assignees: 'chencheng-li'
 ---
 
 **Description**
