@@ -1,10 +1,9 @@
 ---
-name: Custom Task Template
+name: Custom Task Template 
 about: Describe the task to be done.
-title: "[TASK] Brief description of the task"
+title: "[TASK] Brief description of the task" 
 labels: ''
 assignees: ''
-
 ---
 
 **Description**
