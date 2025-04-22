@@ -55,6 +55,10 @@ section {
     border-radius: 5px;
 }
 
+#new-business h2 {
+    color: color(display-p3 0 1 0);
+}
+
 ol, ul {
     padding-left: 40px;
 }
