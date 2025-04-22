@@ -71,3 +71,96 @@ section#media {
     gap: 15px;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+
+    main {
+        width: 98%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+
+    section#agenda ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#media {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+    body {
+        font-size: 15px;
+    }
+}
+
+
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Class Selector */
+  .text-highlight {
+    background-color: yellow; 
+  }
+  
+  /* Attribute Selector */
+  input[type="submit"], button[type="submit"] { 
+    cursor: pointer; 
+    border: 1px solid green;
+  }
+  
+  /* Pseudo-classes :hover and :active */
+  a:hover { 
+    color: red;
+    text-decoration: underline; 
+  }
+  
+  button:active { 
+    transform: scale(0.95); 
+  }
+  
+  /* Child Combinator > */
+  nav > ul { 
+    margin-top: 5px; 
+  }
+  
+  /* Adjacent Sibling Combinator + */
+  h2 + p { 
+    margin-top: -5px; 
+    font-weight: normal; 
+  }
+  
+  /* General Sibling Combinator ~ */
+  h3 ~ p { 
+    line-height: 1.7; 
+  }
+  
+  /* Combining Element.Class */
+  p.footer-note { 
+    font-size: 0.9em;
+    color: gray;
+  }
+  
+  /* :has() Selector */
+  section:has(img) { 
+    padding-top: 5px; 
+    /* border-left: 3px solid orange; */
+  }
+  
+  /* Nested Selectors */
+  footer {
+    p { 
+      font-size: 0.85em; 
+      &.footer-note { 
+        color: darkgray; 
+      }
+    }
+    
+  }
+  
