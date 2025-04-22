@@ -42,7 +42,17 @@ main {
 section {
     margin-bottom: 25px;
     padding: 15px;
-    border-bottom: 2px dotted navy;
+    /* border-bottom: 2px dotted navy; */
+    border-bottom: 3px dotted color-mix(in srgb, navy 60%, var(--main-bg-color, white) 40%);
+}
+
+/* 2.1: Using an ID Selector (#attendance) */
+
+#attendance {
+    background-color: rgba(230, 240, 255, 0.4); /* Example of rgba() - light semi-transparent blue */
+    border-left: 4px solid rgb(70, 130, 180); /* Example of rgb() - steel blue */
+    padding-left: 20px; 
+    border-radius: 5px;
 }
 
 ol, ul {
