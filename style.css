@@ -7,7 +7,9 @@ body {
 }
 
 h1, h2 {
+    margin-bottom: 10px;
     color: darkslategray;
+    padding-top: 5px;
 }
 
 p {
@@ -17,4 +19,39 @@ p {
 
 a {
     text-decoration: none;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+section {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-bottom: 2px dotted navy;
+}
+
+ol, ul {
+    padding-left: 40px;
+}
+
+header, footer {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
